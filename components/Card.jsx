@@ -6,7 +6,7 @@ const Card = ({
     alt,
     title,
     caption,
-    redirect,
+    redirect = "",
     color,
     colSpan,
     bg = "",
@@ -20,6 +20,12 @@ const Card = ({
                 backgroundPosition: "top",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
+            }}
+            onClick={() => {
+                if (redirect) {
+                    window.open(`${redirect}`, "_blank");
+                }
+                return;
             }}
         >
             {src && (

@@ -10,7 +10,8 @@ const Portfolio = () => {
                     <div className="flex flex-col gap-44">
                         <div>
                             <h1 className="text-4xl font-bold mb-10 text-gray-700">
-                                Hello, I'm Giovanni, a React Frontend Specialist
+                                Hello, I&apos;m Giovanni, a React Frontend
+                                Specialist
                             </h1>
                             <p className="text-gray-600">
                                 I care a lot about using my skills for positive

@@ -62,11 +62,11 @@ const Portfolio = () => {
                     colSpan="col-span-3"
                 />
                 <Card
-                    src="/searchbook.png"
+                    src="/todo.png"
                     alt="Microsoft Todo"
                     title="Microsoft Todo"
-                    caption="ReactJS + TailwindCSS app with Redux"
-                    redirect="https://searchbook-giohax.vercel.app/"
+                    caption="Javascript app with MVC architecture"
+                    redirect="https://glittering-daifuku-fd04cd.netlify.app/"
                     color="bg-indigo-400"
                     colSpan="col-span-3"
                 />

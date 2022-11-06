@@ -14,7 +14,7 @@ const Card = ({
 }) => {
     return (
         <div
-            className={`${color} rounded-3xl p-10 pb-0 hover:scale-105 hover:shadow-lg transition-transform duration-200 overflow-hidden cursor-pointer flex flex-col justify-between ${colSpan} `}
+            className={`${color} rounded-3xl p-10 pb-0 sm:hover:scale-105 sm:hover:shadow-lg transition-transform duration-200 overflow-hidden cursor-pointer flex flex-col justify-between ${colSpan} `}
             style={{
                 backgroundImage: `url(${bg})`,
                 backgroundPosition: "top",

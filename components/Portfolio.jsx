@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Portfolio = () => {
     return (
-        <div className="flex justify-center">
+        <div className="flex justify-center pb-10">
             <div className="flex flex-col sm:grid grid-cols-6 gap-5 p-5 pb-0 max-w-5xl">
                 <Card color="bg-stone-100" colSpan="col-span-4">
                     <div className="flex flex-col gap-44">
@@ -27,14 +27,19 @@ const Portfolio = () => {
                     color="bg-stone-100"
                     colSpan="col-span-2"
                     bg={"fullphoto.jpeg"}
-                ></Card>
+                >
+                    <div className="flex flex-col gap-80">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </Card>
                 <Card
                     src="/googlesearch.png"
                     alt="Google Search"
                     title="Google Search"
                     caption="NextJS + TailwindCSS app using Programmable Search Engine"
                     redirect="https://google-clone-giohax.vercel.app/"
-                    color="bg-indigo-400"
+                    color="bg-blue-400"
                     colSpan="col-span-3"
                 />
                 <Card
@@ -53,7 +58,16 @@ const Portfolio = () => {
                     title="Searchbook"
                     caption="ReactJS + TailwindCSS app with Redux"
                     redirect="https://searchbook-giohax.vercel.app/"
-                    color="bg-yellow-800"
+                    color="bg-yellow-700"
+                    colSpan="col-span-3"
+                />
+                <Card
+                    src="/searchbook.png"
+                    alt="Microsoft Todo"
+                    title="Microsoft Todo"
+                    caption="ReactJS + TailwindCSS app with Redux"
+                    redirect="https://searchbook-giohax.vercel.app/"
+                    color="bg-indigo-400"
                     colSpan="col-span-3"
                 />
             </div>

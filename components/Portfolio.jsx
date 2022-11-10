@@ -11,13 +11,18 @@ const Portfolio = () => {
                         <div>
                             <h1 className="text-4xl font-bold mb-10 text-gray-700">
                                 Hello, I&apos;m Giovanni, a React Frontend
-                                Specialist
+                                Specialist with more than 5 years of experience
                             </h1>
                             <p className="text-gray-600">
-                                I care a lot about using my skills for positive
-                                impact, and enjoy creating blazingly fast and
-                                fluid websites. Let me plan out and build your
-                                next project.
+                                I&apos;m passionate about coding, design, and
+                                trading. When I&apos;m not programming, I spend
+                                my time trading the foreign exchange market and
+                                researching into algorithmic trading.
+                                <br />
+                                <br />I care a lot about using my skills for
+                                positive impact, and enjoy creating blazingly
+                                fast, and elegant websites. Let me plan out and
+                                build your next project.
                             </p>
                         </div>
                         <div></div>
@@ -70,6 +75,30 @@ const Portfolio = () => {
                     color="bg-indigo-400"
                     colSpan="col-span-3"
                 />
+
+                <Card color="bg-pink-200" colSpan="col-span-6">
+                    <div className="flex flex-col gap-28">
+                        <div>
+                            <h1 className="text-4xl font-bold mb-10 text-gray-700">
+                                Interested in working together?
+                            </h1>
+                            <form>
+                                <div className="flex flex-col gap-2 sm:flex-row">
+                                    <input
+                                        className="basis-1/2 rounded-md p-3"
+                                        placeholder="Name"
+                                    ></input>
+                                    <input
+                                        className="basis-1/2 rounded-md p-3"
+                                        placeholder="Email"
+                                    ></input>
+                                </div>
+                                <textarea className="mt-3 rounded-md p-3 w-full h-52"></textarea>
+                            </form>
+                        </div>
+                        <div></div>
+                    </div>
+                </Card>
             </div>
         </div>
     );

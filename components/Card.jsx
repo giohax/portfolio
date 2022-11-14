@@ -29,7 +29,7 @@ const Card = ({
             }}
         >
             {src && (
-                <div className="flex justify-center gap-10">
+                <div className="flex flex-col sm:flex-rowjustify-center gap-10 ">
                     <div className="flex justify-between select-none ">
                         <div className=" ">
                             <h1 className="text-white text-xl pb-3">{title}</h1>

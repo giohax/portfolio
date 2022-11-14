@@ -98,7 +98,7 @@ const Portfolio = () => {
                                 Resume
                             </h1>
                             <iframe
-                                className="w-full h-screen"
+                                className="w-full h-screen "
                                 src="https://docs.google.com/document/d/e/2PACX-1vT-NQZbPcFoBqAMZW1XB2U25eogggFJxYPW2tDj0YBoDpK1k8XZP-7IXYsVCx6NKN4_3ZvoeQIKq5bI/pub?embedded=true"
                             ></iframe>
                         </div>

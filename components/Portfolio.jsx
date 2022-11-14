@@ -42,7 +42,7 @@ const Portfolio = () => {
                     src="/googlesearch.png"
                     alt="Google Search"
                     title="Google Search"
-                    caption="NextJS + TailwindCSS app using Programmable Search Engine"
+                    caption="Built in NextJS and TailwindCSS. Mimics the official Google website. Uses Programmable Search Engine for requesting data."
                     redirect="https://google-clone-giohax.vercel.app/"
                     color="bg-blue-400"
                     colSpan="col-span-3"
@@ -51,7 +51,7 @@ const Portfolio = () => {
                     src="/imdb.png"
                     alt="IMDB"
                     title="IMDB"
-                    caption="NextJS + TailwindCSS app using TMDB API"
+                    caption="Built in NextJS and TailwindCSS. Mimics the official IMDB website. Uses TMDB API for requesting data."
                     redirect="https://imdb-clone-giohax.vercel.app/"
                     color="bg-neutral-700"
                     colSpan="col-span-3"
@@ -61,7 +61,7 @@ const Portfolio = () => {
                     src="/searchbook.png"
                     alt="Searchbook"
                     title="Searchbook"
-                    caption="ReactJS + TailwindCSS app with Redux"
+                    caption="Built in ReactJS and TailwindCSS. Uses Redux for state management and Redux Thunk for API requests. Uses Google Books API for requesting data."
                     redirect="https://searchbook-giohax.vercel.app/"
                     color="bg-yellow-700"
                     colSpan="col-span-3"
@@ -70,7 +70,7 @@ const Portfolio = () => {
                     src="/todo.png"
                     alt="Microsoft Todo"
                     title="Microsoft Todo"
-                    caption="Javascript app with MVC architecture"
+                    caption="Built in Vanilla Javascript and HTML5/CSS3. Uses MVC architexture and a custom state management system. Uses JSONPlaceholder for requesting data."
                     redirect="https://glittering-daifuku-fd04cd.netlify.app/"
                     color="bg-indigo-400"
                     colSpan="col-span-3"
@@ -82,7 +82,11 @@ const Portfolio = () => {
                             <h1 className="text-4xl font-bold mb-10 text-gray-700">
                                 Interested in working together?
                             </h1>
-                            <form>
+                            <p className="text-lg">
+                                Contact me at 985-299-1875 or email me at
+                                giovanniantra@gmail.com{" "}
+                            </p>
+                            {/* <form>
                                 <div className="flex flex-col gap-2 sm:flex-row">
                                     <input
                                         className="basis-1/2 rounded-md p-3"
@@ -94,7 +98,7 @@ const Portfolio = () => {
                                     ></input>
                                 </div>
                                 <textarea className="mt-3 rounded-md p-3 w-full h-52"></textarea>
-                            </form>
+                            </form> */}
                         </div>
                         <div></div>
                     </div>

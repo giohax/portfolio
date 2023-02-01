@@ -83,8 +83,7 @@ const Portfolio = () => {
                                 Interested in working together?
                             </h1>
                             <p className="text-md">
-                                Contact me at 985-299-1875 or email me at
-                                giovanniantra@gmail.com{" "}
+                                Email me at giovannifgonzaga@gmail.com{" "}
                             </p>
                         </div>
                         <div></div>
@@ -99,7 +98,7 @@ const Portfolio = () => {
                             </h1>
                             <iframe
                                 className="w-full h-screen "
-                                src="https://docs.google.com/document/d/e/2PACX-1vT-NQZbPcFoBqAMZW1XB2U25eogggFJxYPW2tDj0YBoDpK1k8XZP-7IXYsVCx6NKN4_3ZvoeQIKq5bI/pub?embedded=true"
+                                src="https://docs.google.com/document/d/e/2PACX-1vSPX3ihpjcCNc0AyWmjlcC6vl3DZ84Q2jg0fj1leUgVYMOI6ZEi-IeX-rnLYJXByHBWKGo8do0253IL/pub?embedded=true"
                             ></iframe>
                         </div>
                         <div></div>
